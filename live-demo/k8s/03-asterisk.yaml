@@ -50,7 +50,7 @@ spec:
               mountPath: /source
           env:
             - name: CLOUD
-              value: gcp
+              value: do
             - name: ARI_APPLICATION
               value: demo
             - name: ARI_USERNAME
