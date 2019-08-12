@@ -34,7 +34,7 @@ spec:
         component: kamailio
     spec:
       nodeSelector:
-        cloud.google.com/gke-nodepool: kamailio
+        doks.digitalocean.com/node-pool: k8s-mobsip-pool-1
       hostNetwork: true
       volumes:
         - name: config
